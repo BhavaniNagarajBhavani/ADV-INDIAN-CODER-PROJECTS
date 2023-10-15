@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Bhavani Nagaraj</title>
+    <style>
+        /* Internal CSS for styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #161e2c;
+            margin: 0;
+            padding: 0;
+            color:#fff;
+        }
+
+        header {
+            background-color:  #161e2c;
+            color: #fff;
+            text-align: center;
+            padding: 2rem 0;
+        }
+
+        h1 {
+            margin: 0;
+            font-weight: 600;
+            font-size: 100px;
+        }
+
+        section {
+            padding: 2rem;
+        }
+
+        form label {
+            font-weight: bold;
+        }
+
+        form input[type="text"],
+        form input[type="email"],
+        form textarea {
+            width: 100%;
+            padding: 8px;
+            margin: 6px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        form button {
+            background-color:  #dee1e7;
+            color:black;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        a {
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Contact Me</h1>
+    </header>
+<hr>
+    <section id="contact-form">
+        <h2>Send me a message</h2>
+        <form action="#.php" method="post">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" value="bhuvinagaraj2003@gmail.com" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="6" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    <hr>
+    <section id="contact-info">
+        <h2>Contact Information</h2>
+        <p>Email: <a href="mailto:bhuvinagaraj2003@gmail.com">bhuvinagaraj2003@gmail.com</a></p>
+        <p>Phone: +91 70928 20037</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/bhavani-nagaraj-1a5b9622b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">Bhavani Nagaraj's LinkedIn Profile</a></p>
+       
+    </section>
+    <hr>
+    <footer>
+        <p>&copy; 2023 Bhavani Nagaraj</p>
+    </footer>
+</body>
+</html>
